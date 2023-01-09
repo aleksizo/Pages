@@ -1,0 +1,51 @@
+body{
+    background-color: green;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+    margin-top: 210px;
+    width: 330px;
+    height: 200px;
+
+
+}
+button{
+    background-color: white;
+    width: 260px;
+    height: 80px;
+    font-size: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    -webkit-box-shadow: 3px 10px 42px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 3px 10px 42px 0px rgba(66, 68, 90, 1);
+box-shadow: 3px 10px 42px 0px rgba(66, 68, 90, 1);
+}
+.ZASAD{
+    width: 280px;
+    background-color: red;
+    float: right;
+}
+/* ul{
+    background-color: black;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    height:  470px;
+   
+}
+ol{
+
+
+}
+button{
+    display: block;
+    margin: auto;
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+} */
