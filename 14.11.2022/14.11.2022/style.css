@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body{
+   margin: 0;
+   padding: 0; 
+   background-image: url(./Media/grass_lawn_green_121322_1920x1080.jpg);
+   font-family: sans-serif;
+   color: white;
+   font-weight: 600;
+   font-size: 25px;
+}
+img{
+    width: 75px;
+    height: 75px;
+    transition: 0.2s;
+}
+img:hover{
+    transform: scale(1.4);
+    
+}
+#menu{
+    height: 130px;
+    width: 100%;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    -webkit-box-shadow: 0px 0px 37px 3px rgba(59, 62, 65, 1);
+-moz-box-shadow: 0px 0px 37px 3px rgba(59, 62, 65, 1);
+box-shadow: 0px 0px 37px 3px rgba(59, 62, 65, 1);
+}
+h2{
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.pitk{
+    margin-top: 100px;
+    width: 800px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 37px 3px rgba(59, 62, 65, 1);
+-moz-box-shadow: 0px 0px 37px 3px rgba(59, 62, 65, 1);
+box-shadow: 0px 0px 37px 3px rgba(59, 62, 65, 1);
+}
