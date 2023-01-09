@@ -1,0 +1,23 @@
+body{
+    background-color: #000066;
+
+}
+ol{
+    list-style: none;
+}
+li{
+    width: 300px;
+    height: 50px;
+    color: #660000;
+    background-color: #ffffb3;
+    margin: 10px 0 10px 0;
+    padding: 7px;
+    list-style-image: url(./obrazki/punkt.png);
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+li:hover{
+    background-color: #99ff66;
+    font-size: 18pt;
+}

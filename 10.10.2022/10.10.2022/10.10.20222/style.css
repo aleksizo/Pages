@@ -1,0 +1,30 @@
+th{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50pt;
+    text-align: center;
+    vertical-align: middle;
+}
+#a{
+    background-image: url(./obrazki/spring.jpg);
+    width: 350px;
+    height: 250px;
+}
+#b{
+    background-image: url(./obrazki/lato.jpg);
+    width: 350px;
+    height: 250px;
+}
+#c{
+    background-image: url(./obrazki/autumn.jpg);
+    width: 350px;
+    height: 250px;
+}
+#d{
+    background-image: url(./obrazki/winter.jpg);
+    width: 350px;
+    height: 250px;
+}
+th:hover{
+    font-size: 12pt;
+    animation: 3s;
+}
