@@ -1,0 +1,62 @@
+ul {
+    list-style: none;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top:-1px;
+}
+.ty{
+    background-color: green;
+    width: 600px;
+    height: 150px;
+}
+h1{
+    padding: 40px;
+    color: white;
+    font-size: 35px;
+}
+ul > li {
+    text-align: center;
+    height: 40px;
+    margin:1px;
+    background-color: darkcyan;
+    width: 130px;
+    display: block;
+padding: 10px;
+border: darkcyan solid 1px;
+position: relative;
+}
+ul ul li{
+   position: absolute;
+   margin-left: 175px;
+}
+ul > li > a {
+    padding: 10px; 
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    background-color: white;
+}
+li:hover>a{
+    color: darkcyan;
+}
+ul > li ul {
+    padding: 0;
+    position: absolute; 
+    display: none; 
+    left: 0px; 
+    top: 30px; 
+    width: 200px; 
+    text-align: left;
+
+    margin-left: -24.5px;
+    margin-top: -32px;
+}
+ul li:hover > ul {
+    display: block;
+}
+ul > li ul ul {
+    left: 200px; 
+    top: -1px;
+}
